@@ -21,7 +21,7 @@ int mfibo(int n)
         return table[n];
     }
 }
-// Driver function
+// Driver code
 int main()
 {
     int n;
