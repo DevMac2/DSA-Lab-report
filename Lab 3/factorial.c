@@ -1,11 +1,15 @@
+// C program to find factorial of given number
+// Factorial using recursion
 #include<stdio.h>
-long int factorial(int n)
+long int factorial(int n)  //Function to find factorial of given number
 {
     if(n==0)
-    return 1;
+    return 1;  //base condition to stop the iteration
     else
-    return n*factorial(n-1);
+    return n*factorial(n-1);  // Recursive Call
 }
+
+//Driver Code
 int main()
 {
     int n;
