@@ -81,8 +81,7 @@ int main()
         printf(" 1. Push\n 2. Pop\n 3. Exit\n");
         printf("Enter your choice: ");
         scanf("%d", &choice);
-        switch(choice)
-        {
+        switch(choice){
             case 1:
                 printf("Enter the element: ");
                 scanf("%d", &element);
